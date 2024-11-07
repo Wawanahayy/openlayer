@@ -152,7 +152,7 @@ function displayAccountData() {
 
     console.clear();
     console.log(chalk.green('----------------------------------------------------------------------------------------------------------------------------'));
-    console.log(chalk.green('ACCOUNT      |    ADDRESS     |    DATE/JAM (GMT+7):    | Total Poin:  |  Proxy:     | TIME RUN:    | JOIN MY CHANNEL TG:  |'));
+    console.log(chalk.green('ACCOUNT      |    ADDRESS     |  DATE/JAM (GMT+7):  |  Total Poin:  |   Proxy:    | TIME RUN:    |    JOIN MY CHANNEL TG:  |'));
     console.log(chalk.green('----------------------------------------------------------------------------------------------------------------------------'));
 
     accountsData.forEach(account => {
