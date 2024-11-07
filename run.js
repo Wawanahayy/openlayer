@@ -164,7 +164,7 @@ function displayAccountData() {
       // Menampilkan waktu dengan warna acak setiap detik
       const color = getRandomColor();
       console.log(
-        `${chalk.cyan(accountName)} | ${chalk.magenta(accountAddress)} | ${color(currentTime.padEnd(20))} | ${chalk.yellow(totalPoints)} | ${chalk.blue(proxyStatus)} | ${timeRun.padEnd(12)} | ${color('@AirdropJP_JawaPride')}`
+        `${chalk.cyan(accountName)} | ${chalk.magenta(accountAddress)} | ${color(currentTime.padEnd(20))} | ${chalk.yellow(totalPoints)} | ${chalk.blue(proxyStatus)} | ${timeRun.padEnd(12)} | ${color('@AirdropJP_JawaPride')}    |`
       );
     });
 
