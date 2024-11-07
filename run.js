@@ -115,7 +115,7 @@ function getRandomColor() {
 
 function displayAccountData() {
   console.log(chalk.green('----------------------------------------------------------------------------------------------------------------------------'));
-  console.log(chalk.green('ACCOUNT         |    ADDRESS     |    DATE/JAM (GMT+7):    | Total Poin:  |  Proxy:     | TIME RUN:    |JOIN MY CHANNEL TG:|'));
+  console.log(chalk.green('ACCOUNT         |    ADDRESS     |    DATE/JAM (GMT+7):    | Total Poin: |  Proxy:     | TIME RUN:    |JOIN MY CHANNEL TG:|'));
   console.log(chalk.green('----------------------------------------------------------------------------------------------------------------------------'));
 
   const startTime = moment();
@@ -152,7 +152,7 @@ function displayAccountData() {
 
     console.clear();
     console.log(chalk.green('----------------------------------------------------------------------------------------------------------------------------'));
-    console.log(chalk.green('ACCOUNT      |    ADDRESS     |  DATE/JAM (GMT+7):  |  Total Poin:  |   Proxy:    | TIME RUN:    |    JOIN MY CHANNEL TG:  |'));
+    console.log(chalk.green('ACCOUNT      |    ADDRESS     |  DATE/JAM (GMT+7):  | Total Poin: |   Proxy:    | TIME RUN:    |      JOIN MY CHANNEL TG:  |'));
     console.log(chalk.green('----------------------------------------------------------------------------------------------------------------------------'));
 
     accountsData.forEach(account => {
@@ -164,7 +164,7 @@ function displayAccountData() {
       // Menampilkan waktu dengan warna acak setiap detik
       const color = getRandomColor();
       console.log(
-        `${chalk.cyan(accountName)} | ${chalk.magenta(accountAddress)} | ${color(currentTime.padEnd(20))} | ${chalk.yellow(totalPoints)} | ${chalk.blue(proxyStatus)} | ${timeRun.padEnd(12)} | ${color('@AirdropJP_JawaPride')}    |`
+        `${chalk.cyan(accountName)} | ${chalk.magenta(accountAddress)} | ${color(currentTime.padEnd(20))} | ${chalk.yellow(totalPoints)} | ${chalk.blue(proxyStatus)} | ${timeRun.padEnd(12)} | ${color('@AirdropJP_JawaPride')}      |`
       );
     });
 
