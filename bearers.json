@@ -1,9 +1,7 @@
 {
     "BASE_URL": "https://us-central1-openoracle-de73b.cloudfunctions.net",
     "BEARERS": [
-      "your_TOKEN",
-      "null",
-      "null"
+      "your_TOKEN"
     ],
     "PROXIES": [
     ]
