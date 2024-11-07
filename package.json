@@ -1,0 +1,30 @@
+{
+  "name": "openlayer",
+  "version": "1.0.0",
+  "description": "MADE BY jawa pride",
+  "main": "op.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "timplexz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "cron": "^3.1.9",
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "readline-sync": "^1.4.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wawanahayy/openlayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wawanahayy/openlayer/issues"
+  },
+  "homepage": "https://github.com/Wawanahayy/openlayer#readme"
+}
